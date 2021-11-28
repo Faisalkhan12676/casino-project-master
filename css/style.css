@@ -20,8 +20,8 @@ body {
 }
 /* MAIN SECTION */
 .section-1 {
-  background-image: url("../assets/images/bgimage.jpg");
-
+  
+  background-image: url("../assets/images/bgimage.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -120,6 +120,13 @@ body {
   padding: 0px;
   border: 5px solid white;
 }
+
+
+/* Test */
+
+
+
+/* Test */
 /* CARD IMAGE WITH BACKGROUND */
 .arrow-div {
   display: flex;
@@ -230,6 +237,8 @@ body {
   width: 100%;
   background-color: white;
 }
+
+
 /* MOBILE CSS */
 @media only screen and (min-width: 766px) {
   /* STARS DETAIL WONT SHOW ON LARGE SCREEN CSS */
@@ -244,7 +253,7 @@ body {
     align-items: center;
     background: rgba(68, 68, 68, 0.836);
     border-radius: 20px 0px 20px 0px;
-    margin: 0px 50px;
+    
   }
   /* WEB CARD CSS WONT SHOW ON SMALL SCREENS */
   .section-2-2 {
