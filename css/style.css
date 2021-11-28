@@ -6,7 +6,7 @@
 body {
   background-color: black;
 }
-
+/* HEADER WITH LOGO */
 .header {
   height: 50px;
   width: 100%;
@@ -18,7 +18,7 @@ body {
 .header img {
   height: 50px;
 }
-
+/* MAIN SECTION */
 .section-1 {
   background-image: url("../assets/images/bgimage.jpg");
 
@@ -29,11 +29,14 @@ body {
   width: 100%;
   background-attachment: fixed;
 }
+/* TITLE CSS */
 .title {
   color: white;
   text-align: center;
   margin: 0px 12px;
 }
+
+/* STAR DETAIL IN MOBILE VIEW */
 .res-stars {
   margin: 20px 0px;
   color: white;
@@ -45,7 +48,7 @@ body {
   padding: 0px 10px;
   color: #ffa72f;
 }
-
+/* PRIMARY NAV */
 .allsitesare {
   height: auto;
   display: flex;
@@ -68,6 +71,12 @@ body {
 .lastupdated span {
   color: #ffa72f;
 }
+/* ICONS */
+.img-icon {
+  max-width: 15px;
+  margin: 0px 10px;
+}
+/* CARD GUID TAB */
 .card-guid {
   margin-top: 10px;
   display: flex;
@@ -91,6 +100,7 @@ body {
   color: white;
   margin-right: 40px;
 }
+/* CARD CONTAINER */
 .main-container {
   position: relative;
   height: auto;
@@ -101,6 +111,7 @@ body {
   margin: 20px 0px;
   flex-direction: column;
 }
+/* INSIDE MAIN CONTAINER CARD CSS*/
 .casino-card {
   height: auto;
   background-color: white;
@@ -109,6 +120,7 @@ body {
   padding: 0px;
   border: 5px solid white;
 }
+/* CARD IMAGE WITH BACKGROUND */
 .arrow-div {
   display: flex;
   justify-content: center;
@@ -118,6 +130,7 @@ body {
   background-color: red;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+/* BONUS DIV  */
 .bonus-div {
   display: flex;
   justify-content: center;
@@ -126,6 +139,7 @@ body {
   position: relative;
   right: 2%;
 }
+/* RATING DIV IN CARD*/
 .rating-div {
   display: flex;
 
@@ -147,7 +161,7 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
+/* SCORE IN CARD */
 .score-div {
   display: flex;
   justify-content: center;
@@ -155,6 +169,7 @@ body {
   position: relative;
   right: 0%;
 }
+/* BUTTON IN CARD*/
 .visit-div {
   display: flex;
   justify-content: center;
@@ -170,24 +185,35 @@ body {
   font-size: 18px;
   padding: 8px 50px;
 }
-.m-main-div {
-  display: none;
-}
 .btn:hover {
   color: white;
 }
-
+/* CARD DESCRIPTION CSS */
+.small-detail {
+  width: 90%;
+  text-align: end;
+  color: rgb(214, 214, 214);
+  background: rgba(68, 68, 68, 0.836);
+}
+.small-div {
+  display: none;
+}
+/* MOBILE CARD DISPLAY NONE ON LARGE SCREENS */
+.m-main-div {
+  display: none;
+}
+/* BLACK JACK CARD CSS */
 .section-2 {
   height: auto;
   width: 100%;
   background-color: black;
 }
+/* BLACK JACK CARD TITLE */
 .heading-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-
   padding: 20px 0px;
   text-align: center;
   color: white;
@@ -198,29 +224,19 @@ body {
   width: 70%;
   border-radius: 20px 0px 20px 0px;
 }
-
+/* DETAILS AFTER CARD CSS */
 .casino-details {
   height: auto;
   width: 100%;
   background-color: white;
 }
-
-.small-detail {
-  width: 90%;
-  text-align: end;
-  color: rgb(214, 214, 214);
-  background: rgba(68, 68, 68, 0.836);
-}
-.small-div {
-  display: none;
-}
-
 /* MOBILE CSS */
-
 @media only screen and (min-width: 766px) {
+  /* STARS DETAIL WONT SHOW ON LARGE SCREEN CSS */
   .res-stars {
     display: none;
   }
+  /* BANNER TAB */
   .allsitebanner {
     height: 50px;
     display: flex;
@@ -230,6 +246,7 @@ body {
     border-radius: 20px 0px 20px 0px;
     margin: 0px 50px;
   }
+  /* WEB CARD CSS WONT SHOW ON SMALL SCREENS */
   .section-2-2 {
     display: none;
   }
@@ -240,11 +257,12 @@ body {
   body {
     background-color: black;
   }
+  /* SECTION MAIN */
   .section-1 {
     width: 100%;
     height: 30vh;
   }
-
+  /* TITLE MOBILE VIEW */
   .title {
     color: white;
     text-align: start;
@@ -252,7 +270,7 @@ body {
   .title p {
     display: none;
   }
-
+  /* BANNER MOBILE VIEW */
   .allsitebanner {
     width: 100vw;
     height: 40px;
@@ -261,6 +279,7 @@ body {
     align-items: center;
     background: rgb(88, 88, 88);
   }
+  /* TAB MOBILE VIEW */
   .allsitesare {
     padding: 10px 0px;
     width: 100%;
@@ -277,18 +296,15 @@ body {
     font-size: 0.5rem;
     color: black;
   }
+  /* CARD GUID MOBILE VIEW WONT SHOW*/
   .card-guid {
     display: none;
   }
+  /* WEB CARD CONTAINER WONT SHOW ON SMALL VIEW */
   .main-container {
     display: none;
   }
-  .m-section-1 {
-    height: auto;
-    width: 100%;
-    background-color: black;
-    margin-top: 20px;
-  }
+  /* CARD MOBILE VIEW */
   .m-main-div {
     height: auto;
     width: 100%;
@@ -301,7 +317,7 @@ body {
     background-color: black;
     position: relative;
   }
-
+  /* IMAGE OR RATING DIV*/
   .box-1 {
     display: flex;
     justify-content: center;
@@ -332,6 +348,7 @@ body {
     align-items: center;
     margin: 0px;
   }
+  /* GET BONUS BUTTON OR DISCOUNT DETAIL*/
   .box-2 {
     display: flex;
     justify-content: center;
@@ -353,10 +370,11 @@ body {
     padding: 8px 25px;
     margin-bottom: 15px;
   }
+  /* MOBILE CARD SECTION HIDE ON MOBILE VIEW */
   .section-2 {
     display: none;
   }
-
+/* MOBILE SECTION 2 */
   .section-2-2 {
     height: auto;
     width: 100%;
@@ -388,7 +406,7 @@ body {
     color: rgb(170, 170, 170);
   }
 }
-
+/* FOOTER CSS */
 .footer-container {
   display: flex;
   justify-content: space-around;
@@ -436,7 +454,7 @@ ul {
   display: flex;
   justify-content: space-evenly;
 }
-
+/* FOOTER MOBILE */
 @media only screen and (max-width: 786px) {
   .footer-container {
     flex-direction: column;
@@ -472,6 +490,8 @@ ul {
     height: auto;
     width: 30px;
   }
+
+
   .ribbon {
     position: absolute;
     width: 150px;
@@ -609,56 +629,5 @@ ul {
   }
 }
 
-/* .ribbon-top-left::before,
-.ribbon-top-left::after {
-  border-top-color: transparent;
-  border-left-color: transparent;
-}
-.ribbon-top-left::before {
-  top: 0;
-  right: 0;
-}
-.ribbon-top-left::after {
-  bottom: 0;
-  left: 0;
-}
-.ribbon-top-left span {
-  left: 0px;
-  top: -10px;
-  transform: rotate(0deg);
-} */
 
-.ribbon-most-popular {
-  position: absolute;
-  display: block;
-  width: 140px;
-  margin-top: 10px;
-  padding: 10px 10px;
-  background-color: #1e73be;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  color: #fff;
-  font: 700 0.7rem/1 "Lato", sans-serif;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  text-transform: uppercase;
-  text-align: start;
-  clip-path: polygon(75% 0%, 90% 50%, 75% 100%, 0% 100%, 0 48%, 0% 0%);
-}
-.ribbon-trending {
-  position: absolute;
-  display: block;
-  width: 100px;
-  margin-top: 10px;
-  padding: 10px 10px;
-  background-color: #8224e3;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  color: #fff;
-  font: 700 0.7rem/1 "Lato", sans-serif;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  text-transform: uppercase;
-  text-align: start;
-  clip-path: polygon(75% 0%, 90% 50%, 75% 100%, 0% 100%, 0 48%, 0% 0%);
-}
-.img-icon {
-  max-width: 15px;
-  margin: 0px 10px;
-}
+
