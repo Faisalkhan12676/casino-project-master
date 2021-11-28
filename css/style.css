@@ -422,6 +422,7 @@ ul {
   align-items: center;
   flex-direction: column;
   width: 30%;
+  padding: 0px 30px;
   flex-wrap: wrap;
   color: #808280;
 }
